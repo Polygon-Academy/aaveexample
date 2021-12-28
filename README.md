@@ -13,7 +13,7 @@ The Aave Ape is a helper contract that lets you go long ("ape") the Aave asset o
 ## Quickstart
 
 ```bash
-git clone -b aave-ape https://github.com/austintgriffith/scaffold-eth.git aave-ape
+git clone -b aave-ape https://github.com/Polygon-Academy/aaveexample
 
 cd aave-ape
 ```
