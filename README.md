@@ -54,34 +54,6 @@ yarn deploy
 
 📱 Open http://localhost:3000 to see the app!
 
-### Running on Kovan
-To run the frontend on Kovan, add the following to your .env file in `packages/react-app/`
-```
-REACT_APP_PROVIDER=https://kovan.infura.io/v3/460f40a260564ac4a4f4b3fffb032dad
-REACT_APP_NETWORK=kovan
-```
-
-To use the already-deployed Aave Ape contract, unzip the `kovan-contracts.zip` folder
-To deploy your own...
-```
-yarn generate
-yarn account
-```
-Send your newly generated account some Kovan ETH, then run...
-```
-yarn workspace @scaffold-eth/hardhat hardhat --network kovan run scripts/deploy.js
-yarn workspace @scaffold-eth/hardhat hardhat run scripts/publish.js
-```
-
-### Running on Mainnet
-To run the frontend on mainnet, add the following to your .env file in `packages/react-app/`
-```
-REACT_APP_PROVIDER=https://mainnet.infura.io/v3/460f40a260564ac4a4f4b3fffb032dad
-REACT_APP_NETWORK=mainnet
-```
-
-**The Ape is not currently deployed on Mainnet**
-
 ## The components
 
 🎶 Quick note! The mainnet fork can take a little while to get going - you may need to refresh several times before everything is cached and the app is fast and loading 💨💨💨
